@@ -153,7 +153,7 @@ the account to MetaMask so that you can stake QSP.
 
     The example above shows that the group owner is `staff`
 
-    Run command: `id -nG` to enumerate all the groups for the current user.
+    Run command: `id` to enumerate all the groups for the current user.
 
 1. ONLY On Linux environments (SKIP this step if you’re using MacOS), add the current user to that group (generally docker or root):
 `sudo usermod -a -G <group owner of docker.sock> <username>`
